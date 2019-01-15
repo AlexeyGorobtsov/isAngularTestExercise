@@ -1,0 +1,18 @@
+.open .dropdown-toggle::after {
+  border-bottom: .3em solid;
+  border-top: unset;
+  transition: 500ms
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  max-width: 60px;
+}
+
+@media (max-width: 767px) {
+  .avatar img {
+    max-width: 44px;
+  }
+}
